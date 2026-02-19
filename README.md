@@ -8,7 +8,7 @@ Background across **cyber ML** and **regulated finance/private markets**.
 - 🏛️ Differentiator: governance + model risk experience in regulated environments
 
 **Links**
-- Medium: TBD
+- Medium: https://medium.com/@dimiter.milushev
 - LinkedIn: www.linkedin.com/in/dimiter-milushev-phd
 - GitHub: https://github.com/dvm81
 
