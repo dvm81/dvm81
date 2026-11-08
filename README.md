@@ -1,23 +1,22 @@
 # Dimiter Milushev
 
-**Agent Security / AI Security engineer & team lead** — building secure tool-using LLM systems (prompt injection, tool misuse, data exfiltration) with **evaluation harnesses + guardrails**.
-Background across **cyber ML** and **regulated finance/private markets**.
+**AI agent security · ML for cyber security · PhD in computer science (noninterference)**
 
-- 🔒 Focus: agent security patterns (least-privilege tool use, schema validation, traceability, monitoring)
-- 🧪 Evidence: regression-tested evals for prompt injection / tool misuse / exfiltration
-- 🏛️ Differentiator: governance + model risk experience in regulated environments
+I build open-source defences for LLM agents and measure them the way a security team would: on held-out data, at fixed false-positive budgets, with the limits written down.
 
-**Links**
-- Medium: https://medium.com/@dimiter.milushev
-- LinkedIn: www.linkedin.com/in/dimiter-milushev-phd
-- GitHub: https://github.com/dvm81
+## Projects
 
-## Featured projects
-- **guarded-agent** — security-first LangGraph research agent with policy-enforced tools, schema-validated outputs, citations, and CI evals.
-- **<tooling-repo>** — tool integration (MCP/Playwright) with safe constraints and auditing patterns.
-- **<eval-repo>** — agent security eval harness (scenario-based tests + CI regression gates).
+| Layer | Project | What it does |
+| --- | --- | --- |
+| **Detect** | [ShieldLM](https://github.com/dvm81/shieldlm) · [model](https://huggingface.co/dmilush/shieldlm-deberta-base) · [dataset](https://huggingface.co/datasets/dmilush/shieldlm-prompt-injection) | DeBERTa-v3 prompt-injection classifier trained on 54k examples from 11 public sources. 96.1% recall at 0.1% false-positive rate. |
+| **Scan** | [shieldlm-mcp](https://github.com/dvm81/shieldlm-mcp) · [model](https://huggingface.co/dmilush/shieldlm-deberta-mcp-tools) | Static security scanner for MCP server configs: poisoned tool descriptions, over-privileged servers, leaked secrets, typosquatted packages. Its fine-tuned model reads tool descriptions in nine languages and catches 89% of attacks from benchmarks it never trained on, at 1% false positives. |
 
 ## Writing
-- *Agent Security Field Guide (living)* 
-- *Prompt injection in tool-using agents: minimal defense stack* 
 
+On [Medium](https://medium.com/@dimiter.milushev).
+
+## Background
+
+A decade of machine learning for cyber security and GenAI in banking, including founding and leading a cyber-security AI team. PhD from KU Leuven on [hyperproperties](http://milushev.github.io/pdf/ThesisMilushev.pdf), the logic behind noninterference. CISSP, GCFA.
+
+[Hugging Face](https://huggingface.co/dmilush) · [Medium](https://medium.com/@dimiter.milushev) · [LinkedIn](https://www.linkedin.com/in/dimiter-milushev-phd) · [Google Scholar](https://scholar.google.com/citations?user=-VlKMUoAAAAJ&hl=en)
